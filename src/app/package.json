@@ -6,7 +6,6 @@
   "license": "MIT",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
     "start": "node server.js",
     "test": "echo \"No tests available\" && exit 0",
     "build": "echo \"No build step defined\" && exit 0"
