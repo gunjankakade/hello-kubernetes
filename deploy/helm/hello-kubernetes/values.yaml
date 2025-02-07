@@ -15,7 +15,7 @@ deployment:
   replicaCount: 2
   container:
     image:
-      repository: "559050205062.dkr.ecr.ap-south-1.amazonaws.com/frontend-hello:${BUILD_ID}"
+      repository: "559050205062.dkr.ecr.ap-south-1.amazonaws.com/frontend-hello:52"
       tag: "" # uses chart appVersion if not provided
       pullPolicy: IfNotPresent
     port: 8080
