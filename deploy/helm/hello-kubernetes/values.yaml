@@ -15,7 +15,7 @@ deployment:
   replicaCount: 2
   container:
     image:
-      repository: "paulbouwer/hello-kubernetes"
+      repository: "559050205062.dkr.ecr.ap-south-1.amazonaws.com/frontend-hello:${BUILD_ID}"
       tag: "" # uses chart appVersion if not provided
       pullPolicy: IfNotPresent
     port: 8080
